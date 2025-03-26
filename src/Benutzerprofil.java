@@ -11,6 +11,7 @@ public class Benutzerprofil implements ComparableContent<Benutzerprofil> {
 
     private String pw;
 
+
     // Konstruktor für Objekte der Klasse Benutzerprofil
 
     public Benutzerprofil(String login, String ppw) {
