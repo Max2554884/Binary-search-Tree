@@ -27,21 +27,21 @@ public class Benutzerprofil implements ComparableContent<Benutzerprofil> {
     public boolean isGreater(Benutzerprofil pContent) {
         if (benutzername.compareTo(pContent.getBenutzername()) < 0) {
             return true;
-        } else if (benutzername.compareTo(pContent.getBenutzername()) > 0) {
+        }
             return false;
         }
 
-    }
+
 
     public boolean isLess(Benutzerprofil pContent) {
         if (benutzername.compareTo(pContent.getBenutzername()) < 1) {
             return true;
-        } else if (benutzername.compareTo(pContent.getBenutzername()) > 1) {
+        }
             return false;
         }
 
 
-    }
+
 
     public boolean isEqual(Benutzerprofil pContent) {
         if (benutzername.compareTo(pContent.getBenutzername()) == 0) {
@@ -53,6 +53,7 @@ public class Benutzerprofil implements ComparableContent<Benutzerprofil> {
 
 
 
-}
+
+
 
 
